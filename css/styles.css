@@ -272,7 +272,7 @@ h3 {
     
     .intro__img {
         grid-area: img;
-        min-width: 450px;
+        min-width: 350px;
         position: relative;
         z-index: 2;
     }
@@ -484,6 +484,13 @@ h3 {
         background-color: var(--clr-white);
     }
 }*/
+
+.portfolio-item-individual {
+    padding: 0 2em 2em;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
