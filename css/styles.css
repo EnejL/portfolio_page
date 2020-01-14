@@ -36,7 +36,10 @@
 
 /* General styling */
 
-html,
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     background-color: var(--clr-light);
@@ -141,7 +144,7 @@ h3 {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    /*padding: 1em;*/
 }
 
 .logo {
@@ -186,10 +189,31 @@ h3 {
     background-color: transparent;
     border: 0;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     right: 1em;
     top: 1em;
     z-index: 1000;
+    outline: none;
+}
+
+.nav-open .nav {
+    transform: translateX(0);
+}
+
+.nav-open .nav-toggle {
+    position: fixed;
+}
+
+.nav-open .hamburger {
+    transform: rotate(.625turn);
+}
+
+.nav-open .hamburger::before {
+    transform: rotate(90deg) translateX(-6px);
+}
+
+.nav-open .hamburger::after {
+    opacity: 0;
 }
 
 .hamburger {
@@ -200,7 +224,7 @@ h3 {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background-color: var(--clr-dark);
+    background-color: var(--clr-accent);
     width: 2em;
     height: 3px;
     border-radius: 1em;
@@ -227,6 +251,7 @@ h3 {
 
 .intro {
     position: relative;
+    /*height: 100vh;*/
 }
 
 .intro__img {
