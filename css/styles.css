@@ -5,11 +5,11 @@
 }
 
 :root {
-    --ff-primary: 'Source Sans Pro', sans-serif;
-    --ff-secondary: 'Source Code Pro', monospace;
+    --ff-primary: 'Lora', serif;
+    --ff-secondary: 'Roboto Slab', serif;
     
-    --fw-reg: 300;
-    --fw-bold: 900;
+    --fw-reg: 400;
+    --fw-bold: 700;
     
     --clr-light: #ffffff;
     --clr-dark: #303030;
@@ -491,45 +491,3 @@ h3 {
     margin-left: auto;
     margin-right: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
