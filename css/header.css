@@ -35,10 +35,12 @@
     font-weight: var(--fw-bold);
     font-size: var(--fs-h3);
     text-decoration: none;
+    transition: all .3s;
 }
 
 .nav__link:hover {
     color: var(--clr-accent);
+    text-decoration: underline;
 }
 
 .nav-toggle {
@@ -50,7 +52,7 @@
     right: 1em;
     top: 1em;
     z-index: 1000;
-    outline: none;
+    outline: none !important;
 }
 
 .nav-open .nav {
