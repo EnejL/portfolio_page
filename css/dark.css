@@ -5,8 +5,8 @@
     }
     
     body {
-        background-color: var(--clr-black);
-        color: var(--clr-white);
+        background-color: var(--clr-black) !important;
+        color: var(--clr-white) !important;
     }
     
     .hamburger,
