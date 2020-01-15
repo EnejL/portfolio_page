@@ -1,0 +1,17 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --clr-black: #000000;
+        --clr-white: #ffffff;
+    }
+    
+    body {
+        background-color: var(--clr-black);
+        color: var(--clr-white);
+    }
+    
+    .hamburger,
+    .hamburger::before,
+    .hamburger::after {
+        background-color: var(--clr-white);
+    }
+}
