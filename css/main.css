@@ -9,6 +9,8 @@
 @import "dark.css";
 @import "portfolio.css";
 @import "scroll_top.css";
+@import "blog/blog.css";
+@import "blog/blog_post.css";
 
 *,
 *::before,
