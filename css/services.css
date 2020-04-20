@@ -32,11 +32,16 @@
     margin-right: auto;
 }
 
+.dev-logo {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
 @media (min-width: 800px) {
     .services {
         display: flex;
         max-width: 1000px;
-        margin: 0 auto;
+        margin: 0 auto 2rem;
     }
     
     .service + .service {
