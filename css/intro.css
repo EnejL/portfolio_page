@@ -9,7 +9,7 @@
 }
 
 .intro {
-    background-image: url(../img/personal-1-guy.jpg);
+    background-image: url(../img/enej/intro-photo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 75%;
@@ -46,7 +46,8 @@
 
 @media (min-width: 600px) {
     .intro {
-        background-position: center;
+        background-size: 200%;
+        background-position: 10% 10%;
     }
     
     .intro-body-inner {
